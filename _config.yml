@@ -1,8 +1,5 @@
 minimal_mistakes_skin: "default"
 
-custom_css:
-  - /assets/css/custom.css
-
 title: Jess Godfrey
 description: Maps, geographic information analysis, spatial analysis, cartography and data storytelling
 url: "https://jess-godfrey.github.io"
