@@ -126,10 +126,15 @@ def get_width_se(azimuth_se):
 ### Symbology configuration
 In ArcGIS Pro:
 Open layer Symbology
+
 Select Vary symbology by attribute
+
 Set:
+
 Color → color_se (black–white ramp)
+
 Size → width_se
+
 Enable Size range
 Minimum: 1 pt
 Maximum: 2 pt
