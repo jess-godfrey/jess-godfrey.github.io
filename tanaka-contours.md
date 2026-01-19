@@ -12,7 +12,12 @@ This project explores how Python-generated contours can be styled and refined wi
 
 ## Visualisation
 
-*(Insert map image here)*
+## Visualisation
+
+![Tanaka contour terrain map](./assets/images/B85_Seismic_Horizon_Tanaka_Contours.png)
+
+*Illuminated contours emphasising terrain form and slope direction.*
+
 
 ---
 
