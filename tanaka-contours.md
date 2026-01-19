@@ -86,6 +86,48 @@ def get_azimuth_se(shape):
     # Adjust for SE illumination (135°)
     azimuth_se = (azimuth - 135 + 360) % 360
 
-    return azimuth_se```
+    return azimuth_se
 
+**Field**
+- Name: `color_se`
+- Type: Float (32-bit)
+- Expression type: Python 3
+
+**Expression**
+```python
+color_se = get_color_se(!azimuth_se!)
+
+def get_color_se(azimuth_se):
+    azimuth_se -= 45
+    if azimuth_se < 0:
+        azimuth_se += 360
+       
+    return abs(azimuth_se - 180)
+
+**Field**
+- Name: `width_se`
+- Type: Float (32-bit)
+- Expression type: Python 3
+
+**Expression**
+```python
+width_se = get_width_se(!azimuth_se!)
+
+def get_width_se(azimuth_se):
+    azimuth_se -= 45
+    if azimuth_se < 0:
+        azimuth_se += 360
+
+    return abs(abs(azimuth_se - 180) - 90)
+
+### Symbology configuration
+In ArcGIS Pro:
+Open layer Symbology
+Select Vary symbology by attribute
+Set:
+Color → color_se (black–white ramp)
+Size → width_se
+Enable Size range
+Minimum: 1 pt
+Maximum: 2 pt
 
