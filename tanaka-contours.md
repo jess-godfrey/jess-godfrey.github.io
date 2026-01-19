@@ -47,3 +47,45 @@ In this project, I apply Tanaka-style illuminated contours to a subsurface seism
 Contour segments were attributed using Python within ArcGIS Pro (arcpy and math libraries).  Lighting effects were derived from segment azimuth, with values stored as 32-bit float fields to control both line width and tonal variation. Separating contour generation, attribution, and cartographic styling allowed for experimentation while preserving a reproducible analytical workflow.
 
 Source code and supporting material are available on request.
+---
+
+## Technical Appendix
+
+<details>
+<summary><strong>Detailed contour attribution workflow (Python / ArcGIS Pro)</strong></summary>
+
+### Contour preprocessing
+Once contours were generated, they were split at vertices to allow segment-level attribution and styling.
+
+### Azimuth calculation (SE illumination)
+
+**Field**
+- Name: `azimuth_se`
+- Type: Float (32-bit)
+- Expression type: Python 3
+
+**Expression**
+```python
+azimuth_se = get_azimuth_se(!Shape!)
+
+from math import atan2, pi
+
+def get_azimuth_se(shape):
+    x1 = shape.firstPoint.X
+    y1 = shape.firstPoint.Y
+    x2 = shape.lastPoint.X
+    y2 = shape.lastPoint.Y
+
+    dx = x1 - x2
+    dy = y1 - y2
+    
+    azimuth = atan2(dx, dy) * 180 / pi
+    if azimuth < 0:
+        azimuth += 360
+
+    # Adjust for SE illumination (135°)
+    azimuth_se = (azimuth - 135 + 360) % 360
+
+    return azimuth_se```
+
+
