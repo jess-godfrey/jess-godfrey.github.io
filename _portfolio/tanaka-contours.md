@@ -8,11 +8,6 @@ header:
   teaser: /assets/images/portfolio/Tanaka_Contours_Thumb_16_9_ratio.png
 ---
 
----
-layout: single
-title: "Tanaka Contours Map"
----
-
 ## Overview
 
 Contour lines have become such a familiar part of our maps that their expressive power is often taken for granted. Modern GIS tools, for all their sophistication, can make contours feel purely functional — yet when handled with care, they remain one of the most visually striking ways to represent terrain.
