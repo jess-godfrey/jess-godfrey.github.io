@@ -145,4 +145,5 @@ Size → width_se
 Enable Size range
 Minimum: 1 pt
 Maximum: 2 pt
-</details>```
+
+</details>
