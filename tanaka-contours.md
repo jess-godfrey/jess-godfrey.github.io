@@ -18,7 +18,7 @@ In this project, I apply Tanaka-style illuminated contours to a subsurface seism
 
 ![Tanaka contour terrain map](./assets/images/B85_Seismic_Horizon_Tanaka_Contours.png)
 
-**This map was designed as a presentation and artistic piece — intentionally minimal, without labels, titles, or annotation — allowing form and illumination to carry the narrative.**
+**_This map was designed as a presentation and artistic piece — intentionally minimal, without labels, titles, or annotation — allowing form and illumination to carry the narrative._**
 
 
 ---
@@ -143,4 +143,3 @@ Size → width_se
 Enable Size range
 Minimum: 1 pt
 Maximum: 2 pt
-
