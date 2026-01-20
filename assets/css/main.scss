@@ -107,14 +107,15 @@ body {
 }
 
 /* ============================
-   Wider portfolio layout (desktop)
+   Widen portfolio landing page
    ============================ */
 
 @media (min-width: 64em) {
 
-  .layout--collection .page__inner-wrap {
-    max-width: 1200px;
+  .layout--archive .archive {
+    max-width: 90%;
   }
-   
+
 }
+
 
