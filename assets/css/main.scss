@@ -93,21 +93,15 @@ body {
 }
 
 /* ============================
-   Portfolio grid spacing (desktop)
+   Portfolio tile spacing (desktop)
    ============================ */
 
 @media (min-width: 64em) {
 
-  /* Increase space BETWEEN tiles */
   .entries-grid {
-    grid-column-gap: 2.5rem;
-    grid-row-gap: 3rem;
+    gap: 3rem;
   }
 
-  /* Slightly relax internal spacing */
-  .archive__item {
-    margin-bottom: 0;
-  }
 }
 
 /* ============================
@@ -119,5 +113,6 @@ body {
   .layout--collection .page__inner-wrap {
     max-width: 1200px;
   }
+   
 }
 
