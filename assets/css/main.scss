@@ -30,76 +30,41 @@ body {
 }
 
 /* ============================
-   Code block colors + readability
+   FORCE DARK CODE BLOCKS
+   Works on GitHub Pages live
    ============================ */
 
-/* Overall code block background and padding */
 .page__content pre {
-  background-color: #f7f7f7;  /* soft light gray */
+  background-color: #1e1e1e !important; /* VS Code dark */
+  color: #e6e6e6 !important;
   padding: 1em;
-  border-left: 4px solid #444;
   border-radius: 6px;
   overflow-x: auto;
   font-size: 0.9rem;
-  line-height: 1.4;
+  line-height: 1.45;
+  border-left: 4px solid #4a90e2;
+}
+
+/* Base code text */
+.page__content pre code {
+  color: #e6e6e6 !important;
+  font-family: 'Fira Code', 'Courier New', monospace;
 }
 
 /* Inline code */
-.page__content code {
-  font-family: 'Fira Code', 'Courier New', monospace;
-  font-size: 0.9rem;
-  color: #222; /* dark text for inline code */
+.page__content p code,
+.page__content li code {
+  background-color: #2a2a2a;
+  color: #e6e6e6;
+  padding: 0.15em 0.35em;
+  border-radius: 4px;
 }
 
-/*box shadow */
-.page__content pre {
-  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-}
-
-/* PrismJS token colors for Python */
-pre code .token.comment {
-  color: #6a737d;  /* darker gray for comments */
-  font-style: italic;
-}
-
-pre code .token.keyword {
-  color: #d73a49;  /* red for keywords */
-  font-weight: bold;
-}
-
-pre code .token.string,
-pre code .token.attr-value {
-  color: #032f62;  /* dark blue for strings */
-}
-
-pre code .token.function {
-  color: #6f42c1;  /* purple for function names */
-}
-
-pre code .token.operator,
-pre code .token.punctuation {
-  color: #24292e;  /* dark gray for operators / punctuation */
-}
-
-pre code .token.number {
-  color: #005cc5;  /* blue for numbers */
-}
-
-/* Add subtle shadow / border for readability */
-pre code {
-  display: block;
-}
-
-/* ============================
-   Force high-contrast PrismJS colors
-   ============================ */
-
-.page__content pre code[class*="language-"] .token.comment  { color: #6a737d !important; font-style: italic; }
-.page__content pre code[class*="language-"] .token.keyword  { color: #d73a49 !important; font-weight: bold; }
-.page__content pre code[class*="language-"] .token.string   { color: #032f62 !important; }
-.page__content pre code[class*="language-"] .token.attr-value { color: #032f62 !important; }
-.page__content pre code[class*="language-"] .token.function { color: #6f42c1 !important; }
-.page__content pre code[class*="language-"] .token.operator { color: #24292e !important; }
-.page__content pre code[class*="language-"] .token.punctuation { color: #24292e !important; }
-.page__content pre code[class*="language-"] .token.number   { color: #005cc5 !important; }
-
+/* Syntax colors (manual, Prism-independent) */
+.page__content pre code .token.comment    { color: #7f848e !important; font-style: italic; }
+.page__content pre code .token.keyword    { color: #c586c0 !important; }
+.page__content pre code .token.string     { color: #ce9178 !important; }
+.page__content pre code .token.function   { color: #dcdcaa !important; }
+.page__content pre code .token.number     { color: #b5cea8 !important; }
+.page__content pre code .token.operator,
+.page__content pre code .token.punctuation { color: #d4d4d4 !important; }
