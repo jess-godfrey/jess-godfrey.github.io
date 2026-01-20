@@ -68,3 +68,27 @@ body {
 .page__content pre code .token.number     { color: #b5cea8 !important; }
 .page__content pre code .token.operator,
 .page__content pre code .token.punctuation { color: #d4d4d4 !important; }
+
+/* ============================
+   Portfolio grid polish
+   ============================ */
+
+/* Portfolio grid titles */
+.archive__item-title {
+  font-size: 1.1rem;
+  line-height: 1.25;
+  margin-bottom: 0.4em;
+  white-space: nowrap;      /* keep short titles on one line */
+  overflow: hidden;
+  text-overflow: ellipsis;  /* safety for longer titles later */
+}
+
+/* Portfolio excerpts */
+.archive__item-excerpt {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  text-align: justify;
+  hyphens: auto;
+  margin-top: 0.25em;
+}
+
