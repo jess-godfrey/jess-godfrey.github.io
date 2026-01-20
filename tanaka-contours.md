@@ -1,3 +1,5 @@
+<!-- rebuild -->
+
 ---
 layout: single
 title: "Tanaka Contours Map"
