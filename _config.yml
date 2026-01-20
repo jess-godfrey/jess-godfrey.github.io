@@ -19,4 +19,6 @@ defaults:
     values:
       layout: single
 
-#rebuild site
+# PrismJS theme for syntax highlighting
+prism_theme: 'prism-okaidia'
+
