@@ -97,12 +97,16 @@ body {
    ============================ */
 
 @media (min-width: 64em) {
-  .archive {
-    gap: 2.5rem;   /* increases space between tiles */
+
+  /* Increase space BETWEEN tiles */
+  .entries-grid {
+    grid-column-gap: 2.5rem;
+    grid-row-gap: 3rem;
   }
 
+  /* Slightly relax internal spacing */
   .archive__item {
-    margin-bottom: 2rem;
+    margin-bottom: 0;
   }
 }
 
