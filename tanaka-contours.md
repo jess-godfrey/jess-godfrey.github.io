@@ -51,8 +51,6 @@ Source code and supporting material are available on request.
 
 ## Technical Appendix
 
-{% include details.html summary="Detailed contour attribution workflow (Python / ArcGIS Pro)" %}
-
 ### Contour preprocessing
 Once contours were generated, they were split at vertices to allow segment-level attribution and styling.
 
@@ -66,12 +64,12 @@ Once contours were generated, they were split at vertices to allow segment-level
 - Expression type: Python 3
 
 **Expression**
-{% highlight python %}
+```python
 azimuth_se = get_azimuth_se(!Shape!)
-{% endhighlight %}
+```
 
 **Code block**
-{% highlight python %}
+```python
 from math import atan2, pi
 
 def get_azimuth_se(shape):
@@ -91,11 +89,7 @@ def get_azimuth_se(shape):
     azimuth_se = (azimuth - 135 + 360) % 360
 
     return azimuth_se
-{% endhighlight %}
-
----
-
-### Colour weighting
+```
 
 **Field**
 - Name: `color_se`
@@ -103,23 +97,19 @@ def get_azimuth_se(shape):
 - Expression type: Python 3
 
 **Expression**
-{% highlight python %}
+```python
 color_se = get_color_se(!azimuth_se!)
-{% endhighlight %}
+```
 
 **Code block**
-{% highlight python %}
+```python
 def get_color_se(azimuth_se):
     azimuth_se -= 45
     if azimuth_se < 0:
         azimuth_se += 360
        
     return abs(azimuth_se - 180)
-{% endhighlight %}
-
----
-
-### Line width weighting
+```
 
 **Field**
 - Name: `width_se`
@@ -127,27 +117,32 @@ def get_color_se(azimuth_se):
 - Expression type: Python 3
 
 **Expression**
-{% highlight python %}
+```python
 width_se = get_width_se(!azimuth_se!)
-{% endhighlight %}
+```
 
 **Code block**
-{% highlight python %}
+```python
 def get_width_se(azimuth_se):
     azimuth_se -= 45
     if azimuth_se < 0:
         azimuth_se += 360
 
     return abs(abs(azimuth_se - 180) - 90)
-{% endhighlight %}
+```
 
----
+### Symbology configuration
+In ArcGIS Pro:
+Open layer Symbology
 
-### Symbology configuration (ArcGIS Pro)
-- Open layer **Symbology**  
-- Select **Vary symbology by attribute**  
-- Color → `color_se` (black–white ramp)  
-- Size → `width_se`  
-- Enable Size range: min 1 pt, max 2 pt  
+Select Vary symbology by attribute
 
-{% endinclude %}
+Set:
+
+Color → color_se (black–white ramp)
+
+Size → width_se
+
+Enable Size range
+Minimum: 1 pt
+Maximum: 2 pt
