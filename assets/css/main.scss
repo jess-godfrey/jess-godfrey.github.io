@@ -92,4 +92,27 @@ body {
   margin-top: 0.25em;
 }
 
+/* ============================
+   Portfolio grid spacing (desktop)
+   ============================ */
 
+@media (min-width: 64em) {
+  .archive {
+    gap: 2.5rem;   /* increases space between tiles */
+  }
+
+  .archive__item {
+    margin-bottom: 2rem;
+  }
+}
+
+/* ============================
+   Wider layout for portfolio pages
+   ============================ */
+
+@media (min-width: 64em) {
+  .layout--collection .page__content,
+  .layout--collection .archive {
+    max-width: 1200px;   /* wider but still elegant */
+  }
+}
