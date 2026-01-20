@@ -89,8 +89,7 @@ def get_azimuth_se(shape):
     azimuth_se = (azimuth - 135 + 360) % 360
 
     return azimuth_se
-
-
+```
 
 **Field**
 - Name: `color_se`
@@ -107,8 +106,7 @@ def get_color_se(azimuth_se):
         azimuth_se += 360
        
     return abs(azimuth_se - 180)
-
-
+```
 
 **Field**
 - Name: `width_se`
@@ -125,8 +123,7 @@ def get_width_se(azimuth_se):
         azimuth_se += 360
 
     return abs(abs(azimuth_se - 180) - 90)
-
-
+```
 
 ### Symbology configuration
 In ArcGIS Pro:
