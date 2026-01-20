@@ -90,7 +90,7 @@ def get_azimuth_se(shape):
 
     return azimuth_se
 
-```
+
 
 **Field**
 - Name: `color_se`
@@ -108,7 +108,7 @@ def get_color_se(azimuth_se):
        
     return abs(azimuth_se - 180)
 
-```
+
 
 **Field**
 - Name: `width_se`
@@ -126,7 +126,7 @@ def get_width_se(azimuth_se):
 
     return abs(abs(azimuth_se - 180) - 90)
 
-```
+
 
 ### Symbology configuration
 In ArcGIS Pro:
@@ -143,5 +143,3 @@ Size → width_se
 Enable Size range
 Minimum: 1 pt
 Maximum: 2 pt
-
-</details>
