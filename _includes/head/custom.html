@@ -1,0 +1,28 @@
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll("pre").forEach((block) => {
+    const button = document.createElement("button");
+    button.innerText = "Copy";
+
+    button.style.position = "absolute";
+    button.style.top = "8px";
+    button.style.right = "8px";
+    button.style.fontSize = "0.75rem";
+    button.style.padding = "2px 6px";
+    button.style.cursor = "pointer";
+    button.style.background = "#2a2a2a";
+    button.style.color = "#e6e6e6";
+    button.style.border = "1px solid #555";
+    button.style.borderRadius = "4px";
+
+    button.onclick = () => {
+      navigator.clipboard.writeText(block.innerText);
+      button.innerText = "Copied!";
+      setTimeout(() => (button.innerText = "Copy"), 1500);
+    };
+
+    block.style.position = "relative";
+    block.appendChild(button);
+  });
+});
+</script>
