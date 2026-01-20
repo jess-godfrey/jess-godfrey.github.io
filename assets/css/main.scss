@@ -111,12 +111,13 @@ body {
 }
 
 /* ============================
-   Wider layout for portfolio pages
+   Wider portfolio layout (desktop)
    ============================ */
 
 @media (min-width: 64em) {
-  .layout--collection .page__content,
-  .layout--collection .archive {
-    max-width: 1200px;   /* wider but still elegant */
+
+  .layout--collection .page__inner-wrap {
+    max-width: 1200px;
   }
 }
+
