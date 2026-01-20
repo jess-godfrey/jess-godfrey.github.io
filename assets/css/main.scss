@@ -70,17 +70,17 @@ body {
 .page__content pre code .token.punctuation { color: #d4d4d4 !important; }
 
 /* ============================
-   Portfolio grid polish
+   Portfolio grid polish - refined
    ============================ */
 
 /* Portfolio grid titles */
 .archive__item-title {
-  font-size: 1.1rem;
-  line-height: 1.25;
+  font-size: 1rem;           /* slightly smaller, fits longer titles */
+  line-height: 1.25;         /* good spacing for multi-line titles */
   margin-bottom: 0.4em;
-  white-space: nowrap;      /* keep short titles on one line */
-  overflow: hidden;
-  text-overflow: ellipsis;  /* safety for longer titles later */
+  white-space: normal;       /* allow wrapping */
+  overflow: visible;         /* no ellipsis */
+  text-overflow: unset;      /* reset in case it was set before */
 }
 
 /* Portfolio excerpts */
@@ -91,4 +91,5 @@ body {
   hyphens: auto;
   margin-top: 0.25em;
 }
+
 
