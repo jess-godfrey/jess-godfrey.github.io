@@ -34,16 +34,16 @@ body {
    ============================ */
 
 .page__content pre {
-  background-color: #f7f7f7;  /* soft light gray background */
-  padding: 0.75em 1em;        /* comfortable padding */
-  border-left: 4px solid #444; /* subtle accent for readability */
-  overflow-x: auto;            /* horizontal scroll if needed */
+  background-color: #f7f7f7;
+  padding: 0.75em 1em;
+  border-left: 4px solid #444;
+  overflow-x: auto;
   border-radius: 6px;
-  font-size: 0.9rem;           /* slightly smaller than body text */
+  font-size: 0.9rem;
 }
 
 .page__content code {
-  font-family: 'Fira Code', 'Courier New', monospace; /* nicer monospace */
+  font-family: 'Fira Code', 'Courier New', monospace;
   font-size: 0.9rem;
 }
 
@@ -57,5 +57,6 @@ body {
 }
 
 .page__content summary:hover {
-  color: #1e70bf;  /* subtle interactive hint */
+  color: #1e70bf;
 }
+
