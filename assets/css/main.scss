@@ -51,6 +51,11 @@ body {
   color: #222; /* dark text for inline code */
 }
 
+/*box shadow */
+.page__content pre {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
 /* PrismJS token colors for Python */
 pre code .token.comment {
   color: #6a737d;  /* darker gray for comments */
@@ -85,4 +90,16 @@ pre code {
   display: block;
 }
 
+/* ============================
+   Force high-contrast PrismJS colors
+   ============================ */
+
+.page__content pre code[class*="language-"] .token.comment  { color: #6a737d !important; font-style: italic; }
+.page__content pre code[class*="language-"] .token.keyword  { color: #d73a49 !important; font-weight: bold; }
+.page__content pre code[class*="language-"] .token.string   { color: #032f62 !important; }
+.page__content pre code[class*="language-"] .token.attr-value { color: #032f62 !important; }
+.page__content pre code[class*="language-"] .token.function { color: #6f42c1 !important; }
+.page__content pre code[class*="language-"] .token.operator { color: #24292e !important; }
+.page__content pre code[class*="language-"] .token.punctuation { color: #24292e !important; }
+.page__content pre code[class*="language-"] .token.number   { color: #005cc5 !important; }
 
