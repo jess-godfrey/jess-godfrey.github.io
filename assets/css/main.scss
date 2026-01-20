@@ -30,33 +30,59 @@ body {
 }
 
 /* ============================
-   Code block polish
+   Code block colors + readability
    ============================ */
 
+/* Overall code block background and padding */
 .page__content pre {
-  background-color: #f7f7f7;
-  padding: 0.75em 1em;
+  background-color: #f7f7f7;  /* soft light gray */
+  padding: 1em;
   border-left: 4px solid #444;
-  overflow-x: auto;
   border-radius: 6px;
+  overflow-x: auto;
   font-size: 0.9rem;
+  line-height: 1.4;
 }
 
+/* Inline code */
 .page__content code {
   font-family: 'Fira Code', 'Courier New', monospace;
   font-size: 0.9rem;
+  color: #222; /* dark text for inline code */
 }
 
-/* Summary styling for collapsible appendix */
-.page__content summary {
-  font-weight: 600;
-  font-size: 1rem;
-  cursor: pointer;
-  color: #2a2a2a;
-  padding: 0.3em 0;
+/* PrismJS token colors for Python */
+pre code .token.comment {
+  color: #6a737d;  /* darker gray for comments */
+  font-style: italic;
 }
 
-.page__content summary:hover {
-  color: #1e70bf;
+pre code .token.keyword {
+  color: #d73a49;  /* red for keywords */
+  font-weight: bold;
 }
+
+pre code .token.string,
+pre code .token.attr-value {
+  color: #032f62;  /* dark blue for strings */
+}
+
+pre code .token.function {
+  color: #6f42c1;  /* purple for function names */
+}
+
+pre code .token.operator,
+pre code .token.punctuation {
+  color: #24292e;  /* dark gray for operators / punctuation */
+}
+
+pre code .token.number {
+  color: #005cc5;  /* blue for numbers */
+}
+
+/* Add subtle shadow / border for readability */
+pre code {
+  display: block;
+}
+
 
