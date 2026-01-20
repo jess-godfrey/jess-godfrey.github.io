@@ -57,6 +57,8 @@ Source code and supporting material are available on request.
 ### Contour preprocessing
 Once contours were generated, they were split at vertices to allow segment-level attribution and styling.
 
+---
+
 ### Azimuth calculation (SE illumination)
 
 **Field**
@@ -87,6 +89,7 @@ def get_azimuth_se(shape):
     azimuth_se = (azimuth - 135 + 360) % 360
 
     return azimuth_se
+
 ```
 
 **Field**
@@ -104,6 +107,7 @@ def get_color_se(azimuth_se):
         azimuth_se += 360
        
     return abs(azimuth_se - 180)
+
 ```
 
 **Field**
@@ -121,6 +125,7 @@ def get_width_se(azimuth_se):
         azimuth_se += 360
 
     return abs(abs(azimuth_se - 180) - 90)
+
 ```
 
 ### Symbology configuration
