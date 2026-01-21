@@ -111,18 +111,13 @@ body {
    ============================ */
 
 @media (min-width: 64em) {
-  .wide-portfolio .initial-content {
-    max-width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+  body.wide-portfolio .page__inner-wrap {
+    max-width: none;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 }
 
-@media (min-width: 64em) {
-  .wide-portfolio .page__content {
-    max-width: 90%;
-  }
-}
 
 
 
