@@ -5,7 +5,13 @@ collection: portfolio
 entries_layout: grid
 permalink: /portfolio/
 classes: wide-portfolio
+
+# Hide the sidebar on this page
+sidebar:
+  nav: false
 ---
+
+
 
 
 Below is a selection of mapping, cartography, and spatial analysis projects.
