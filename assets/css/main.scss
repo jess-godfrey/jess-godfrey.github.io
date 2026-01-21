@@ -109,7 +109,6 @@ body {
 /* ============================
    Widen portfolio landing page
    ============================ */
-
 body.wide-portfolio .archive {
   width: 100% !important;
   padding-inline-end: 0 !important;
@@ -118,15 +117,18 @@ body.wide-portfolio .archive {
 /* ============================
    Widen portfolio project pages
    ============================ */
+body.wide-project .page {
+  width: 100% !important;
+  padding-inline-end: 0 !important;
+}
 
 @media (min-width: 64em) {
   body.wide-project .page__inner-wrap {
-    max-width: 1200px;   /* wider than the default */
+    max-width: 1200px !important;   /* wider than default */
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* Optional: breathing room around text */
   body.wide-project .page__content {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
