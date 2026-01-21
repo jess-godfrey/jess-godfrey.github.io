@@ -115,7 +115,23 @@ body.wide-portfolio .archive {
   padding-inline-end: 0 !important;
 }
 
+/* ============================
+   Widen portfolio project pages
+   ============================ */
 
+/* Widen individual project pages */
+@media (min-width: 64em) {
+  body.wide-project .page__inner-wrap {
+    max-width: 85%;  /* tweak to taste */
+    margin-left: auto;
+    margin-right: auto;
+  }
 
+  /* Optional: add breathing room around text */
+  body.wide-project .page__content {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
 
 
