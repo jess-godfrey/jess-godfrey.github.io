@@ -110,13 +110,11 @@ body {
    Widen portfolio landing page
    ============================ */
 
-@media (min-width: 64em) {
-  body.wide-portfolio .page__inner-wrap {
-    max-width: none;
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
+body.wide-portfolio .archive {
+  width: 100% !important;
+  padding-inline-end: 0 !important;
 }
+
 
 
 
