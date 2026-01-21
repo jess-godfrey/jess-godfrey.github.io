@@ -4,6 +4,7 @@ layout: collection
 collection: portfolio
 entries_layout: grid
 permalink: /portfolio/
+classes: wide-portfolio
 ---
 
 
