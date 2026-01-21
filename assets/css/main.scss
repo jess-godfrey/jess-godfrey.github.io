@@ -119,19 +119,19 @@ body.wide-portfolio .archive {
    Widen portfolio project pages
    ============================ */
 
-/* Widen individual project pages */
 @media (min-width: 64em) {
   body.wide-project .page__inner-wrap {
-    max-width: 110%;  /* tweak to taste */
+    max-width: 1200px;   /* wider than the default */
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* Optional: add breathing room around text */
+  /* Optional: breathing room around text */
   body.wide-project .page__content {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
+
 
 
