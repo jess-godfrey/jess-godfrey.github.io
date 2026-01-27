@@ -34,8 +34,9 @@ Because real tenure maps are frequently confidential or commercially sensitive (
 **Data**
 
 Data was downloaded through publically available spatial websites including:
-	• QSpatial — Queensland Government open spatial data
-  • GeoResGlobe — Queensland geoscience and resource datasets
+
+• QSpatial — Queensland Government open spatial data
+• GeoResGlobe — Queensland geoscience and resource datasets
 
 ---
 
