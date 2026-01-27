@@ -23,7 +23,7 @@ Because real tenure maps are frequently confidential or commercially sensitive (
 
 ## Visualisation
 
-![Tanaka contour terrain map](/assets/images/B85_Seismic_Horizon_Tanaka_Contours.png)
+![Tenure Maps](/assets/images/Fake_Petroleum_Tenure_Map_v1.png)
 
 **_This example demonstrates how visual hierarchy and restrained styling can improve legibility in a regulation-driven mapping context._**
 
