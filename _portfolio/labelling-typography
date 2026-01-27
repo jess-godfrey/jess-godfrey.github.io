@@ -9,6 +9,7 @@ header:
 classes: wide-project
 ---
 
+
 ## Overview
 
 Maps are more than collections of lines, symbols, and geometry — they are stories that need a narrator. That role is fulfilled by labels. Present on almost every map, labelling is one of the most fundamental yet subtly complex aspects of cartographic design.
@@ -18,6 +19,7 @@ Unlike rivers, roads, or terrain, text does not exist in the physical landscape.
 When labels are placed with intention, they guide the reader’s eye effortlessly across the map. They help anchor features in space, clarify relationships, and establish a clear visual hierarchy. Beyond simple identification, typography sets the emotional tone of a map — calm or busy, formal or expressive — acting as the final layer that brings balance and cohesion to the composition.
 
 This project explores labelling as both a technical discipline and a design craft, focusing on clarity, restraint, and readability at multiple scales.
+
 
 ---
 
@@ -34,6 +36,7 @@ This project explores labelling as both a technical discipline and a design craf
 
 **Data**
 - Open Street Map Data  
+
 
 ---
 
