@@ -1,1 +1,61 @@
+---
+title: "Labelling & Typography"
+excerpt: "Exploring cartographic labelling as both a technical discipline and a design craft, balancing clarity, hierarchy, and visual tone."
+collection: portfolio
+layout: single
+permalink: /portfolio/labelling-typography/
+header:
+  teaser: /assets/images/portfolio/Labelling_Project_Thumb_16_9_ratio.png
+classes: wide-project
+---
 
+
+## Overview
+
+Maps are more than collections of lines, symbols, and geometry — they are stories that need a narrator. That role is fulfilled by labels. Present on almost every map, labelling is one of the most fundamental yet subtly complex aspects of cartographic design.
+
+Unlike rivers, roads, or terrain, text does not exist in the physical landscape. If you were standing in the middle of a forest, you wouldn’t see its name hovering between the trees. And yet, without labels, most maps would be abstract and ambiguous. Typography bridges the gap between what we see and what we understand, assigning identity and meaning where geometry alone falls short.
+
+When labels are placed with intention, they guide the reader’s eye effortlessly across the map. They help anchor features in space, clarify relationships, and establish a clear visual hierarchy. Beyond simple identification, typography sets the emotional tone of a map — calm or busy, formal or expressive — acting as the final layer that brings balance and cohesion to the composition.
+
+This project explores labelling as both a technical discipline and a design craft, focusing on clarity, restraint, and readability at multiple scales.
+
+
+---
+
+## Visualisation
+
+![New York City - Labelling Project](/assets/images/Labelling_Map_Project.png)
+
+**_New York City Labelling Project — allowing labels to carry the narrative._**
+
+
+---
+
+## Method
+
+**Data**
+- Open Street Map Data  
+
+
+---
+
+## Technical Appendix
+
+Effective labelling relies on consistency and restraint. To maintain clarity and visual harmony:
+
+- Limit the number of fonts used — more than two typefaces is generally excessive,
+
+- Differentiate feature types using:
+
+  - Font size,
+
+  - Weight (regular vs bold),
+
+  - Style (italics where appropriate),
+
+  - Subtle colour variation.
+
+- Prioritise legibility across scales, ensuring labels remain readable without overwhelming the map.
+
+These principles help ensure that labels support the map’s message rather than compete with it.
