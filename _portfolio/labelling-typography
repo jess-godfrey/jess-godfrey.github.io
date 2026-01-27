@@ -23,3 +23,36 @@ This project explores labelling as both a technical discipline and a design craf
 
 ## Visualisation
 
+![New York City - Labelling Project](/assets/images/Labelling_Map_Project.png)
+
+**_New York City Labelling Project — allowing labels to carry the narrative._**
+
+
+---
+
+## Method
+
+**Data**
+- Open Street Map Data  
+
+---
+
+## Technical Appendix
+
+Effective labelling relies on consistency and restraint. To maintain clarity and visual harmony:
+
+- Limit the number of fonts used — more than two typefaces is generally excessive,
+
+- Differentiate feature types using:
+
+  - Font size,
+
+  - Weight (regular vs bold),
+
+  - Style (italics where appropriate),
+
+  - Subtle colour variation.
+
+- Prioritise legibility across scales, ensuring labels remain readable without overwhelming the map.
+
+These principles help ensure that labels support the map’s message rather than compete with it.
