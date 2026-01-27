@@ -47,44 +47,44 @@ Queensland Government Mapping Requirements (Summary)
 
 Location maps submitted as part of tenure, exploration, or activity reporting must:
 
-• Display the relevant resource authority and associated activity or study area at an appropriate contextual scale
+- Display the relevant resource authority and associated activity or study area at an appropriate contextual scale
 
-• Use a standard base-10 scale (e.g. 1:10,000; 1:250,000; 1:1,000,000)
+- Use a standard base-10 scale (e.g. 1:10,000; 1:250,000; 1:1,000,000)
 
-• Include all mandatory map elements:
+- Include all mandatory map elements:
 
-  • Title
+  - Title
   
-  • Coordinates
+  - Coordinates
   
-  • Scale
+  - Scale
   
-  • Legible legend
+  - Legible legend
   
-  • Datum, projection, and zone
+  - Datum, projection, and zone
   
-• Be produced at a sufficient resolution to ensure all features and text remain legible at the displayed scale
+- Be produced at a sufficient resolution to ensure all features and text remain legible at the displayed scale
 
 Depending on the activity, maps may also be required to show:
 
-• Nearby petroleum wells or bores
+- Nearby petroleum wells or bores
 
-• Seismic survey lines (2D) or survey areas (3D)
+- Seismic survey lines (2D) or survey areas (3D)
 
-• Resource authority boundaries
+- Resource authority boundaries
 
-• Permanent infrastructure (processing plants, dams, ponds, etc.)
+- Permanent infrastructure (processing plants, dams, ponds, etc.)
 
-• Topographic and contextual features, including:
+- Topographic and contextual features, including:
 
-  • Population centres
+  - Population centres
   
-  • Roads and railways
+  - Roads and railways
   
-  • Access tracks
+  - Access tracks
   
-  • Pipelines
+  - Pipelines
   
-  • Watercourses
+  - Watercourses
 
 This project demonstrates how these requirements can be met while still applying strong cartographic principles — prioritising clarity, visual hierarchy, and the end-user experience.
