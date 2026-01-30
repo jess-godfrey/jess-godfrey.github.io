@@ -7,6 +7,7 @@ permalink: /portfolio/shoreline-analysis/
 header:
   teaser: /assets/images/portfolio/Shoreline_Analysis_Thumb_16_9_ratio.png
 classes: wide-project
+math: true
 ---
 
 ## Overview
