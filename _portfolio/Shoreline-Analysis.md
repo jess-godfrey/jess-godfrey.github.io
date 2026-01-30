@@ -128,3 +128,6 @@ Band detection and validation are based on the **USGS Earth Explorer Landsat nam
 ![Atkinsons Dam - Storage History tied to Shoreline Analysis](/assets/images/Atkinsons_Dam_Storage_with_Shoreline_Dates.png)
 
 ---
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
