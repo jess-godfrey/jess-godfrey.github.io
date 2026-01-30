@@ -9,9 +9,10 @@ classes: wide-portfolio
 # Hide the sidebar on this page
 sidebar:
   nav: false
+
+# 🔑 THIS is the key
+sort_by: weight
 ---
-
-
 
 
 Below is a selection of mapping, cartography, and spatial analysis projects.
