@@ -66,10 +66,10 @@ To span the full period of interest, imagery from two Landsat missions was requi
 
 3. Use an **Area of Interest (AOI) polygon** and clip imagery to extent.  I previously created mine to just cover the Dam.
 
-4. Generate **NDWI rasters** for each year using:  
-   \[
-   \text{NDWI} = \frac{\text{Green} - \text{NIR}}{\text{Green} + \text{NIR}}
-   \]
+4. Generate **NDWI rasters** for each year using: 
+$$
+\text{NDWI} = \frac{\text{Green} - \text{NIR}}{\text{Green} + \text{NIR}}
+$$
 
 5. Apply a **conditional (Con) operation** to extract water pixels  
    - NDWI ≥ 0 classified as water  
@@ -111,6 +111,14 @@ Band detection and validation are based on the **USGS Earth Explorer Landsat nam
 - Collection and Tier
 - Band identifiers (B1–B11)
 
+Outputs
+
+- Clipped Rasters
+- NDWI Rasters
+- Water Mask
+- Shoreline polygons
+- Animation
+- Chart
 ---
 
 ## Code
