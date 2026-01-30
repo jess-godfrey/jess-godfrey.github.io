@@ -125,4 +125,5 @@ Band detection and validation are based on the **USGS Earth Explorer Landsat nam
 
 ## Code
 
-- `Shoreline_Analysis.py`
+[Download Python script](./assets/code/Shoreline_Analysis.py)
+
