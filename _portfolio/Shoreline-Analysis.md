@@ -44,16 +44,6 @@ To span the full period of interest, imagery from two Landsat missions was requi
 
 ---
 
-## Visualisation
-
-- Animated shoreline change over time (GIF / MP4)
-- Historic Dam storage Highlighting Shoreline Analysis chart (megalitres)
-
-![Shoreline Animation](/assets/images/Atkinsons_Dam_Shoreline_Storage_single.gif)
-![Atkinsons Dam - Storage History tied to Shoreline Analysis](/assets/images/Atkinsons_Dam_Storage_with_Shoreline_Dates.png)
-
----
-
 ## Data
 
 - **USGS Earth Explorer** — Landsat 5 & Landsat 8  
@@ -127,3 +117,14 @@ Band detection and validation are based on the **USGS Earth Explorer Landsat nam
 
 [Download Python script](./assets/code/Shoreline_Analysis.py)
 
+---
+
+## Visualisation
+
+- Animated shoreline change over time (GIF / MP4)
+- Historic Dam storage Highlighting Shoreline Analysis chart (megalitres)
+
+![Shoreline Animation](/assets/images/Atkinsons_Dam_Shoreline_Storage_single.gif)
+![Atkinsons Dam - Storage History tied to Shoreline Analysis](/assets/images/Atkinsons_Dam_Storage_with_Shoreline_Dates.png)
+
+---
