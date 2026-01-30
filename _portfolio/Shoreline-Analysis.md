@@ -11,9 +11,9 @@ classes: wide-project
 
 ## Overview
 
-This project examines **shoreline change over time** at **Atkinson Dam, Queensland**, and compares those spatial changes with **historic dam storage levels**. The entire workflow — from raw satellite imagery through to final visualisation — was developed **100% in Python**.
+This project examines shoreline change over time at Atkinson Dam, Queensland, Australia, and compares those spatial changes with historic dam storage levels. The entire workflow — from raw satellite imagery through to final visualisation — was developed 100% in Python.
 
-The analysis uses **Landsat satellite imagery** as its primary data source. Water bodies have a distinctive spectral signature: they reflect strongly in the **green band** and very weakly in the **near-infrared (NIR)** band. This contrast can be exploited using the **Normalised Difference Water Index (NDWI)** to objectively identify water pixels.
+The analysis uses Landsat satellite imagery as its primary data source. Water bodies have a distinctive spectral signature: they reflect strongly in the green band and very weakly in the near-infrared (NIR) band. This contrast can be exploited using the Normalised Difference Water Index (NDWI) to objectively identify water pixels.
 
 The NDWI is calculated as:
 
@@ -26,9 +26,9 @@ Resulting values range from **–1 to +1**, where:
 - **Positive values** represent water  
 - **Negative values** represent non-water surfaces  
 
-Because NDWI is based on a logical spectral relationship rather than visual interpretation, it provides a **consistent, reproducible, and objective** method for mapping water bodies. This makes it particularly useful for shoreline change detection, flood and drought analysis, riverbank erosion studies, and long-term environmental monitoring.
+Because NDWI is based on a logical spectral relationship rather than visual interpretation, it provides a consistent, reproducible, and objective method for mapping water bodies. This makes it particularly useful for shoreline change detection, flood and drought analysis, riverbank erosion studies, and long-term environmental monitoring.
 
-To span the full period of interest, imagery from **two Landsat missions** was required: **Landsat 5** and **Landsat 8**. These satellites differ in both **radiometric resolution** (8-bit vs 16-bit imagery) and **band designations**, requiring careful handling to ensure consistency through time.
+To span the full period of interest, imagery from two Landsat missions was required: **Landsat 5** and **Landsat 8**. These satellites differ in both radiometric resolution (8-bit vs 16-bit imagery) and band designations, requiring careful handling to ensure consistency through time.
 
 ---
 
@@ -48,7 +48,7 @@ To span the full period of interest, imagery from **two Landsat missions** was r
 - Animated shoreline change over time (GIF / MP4)
 - Historic Dam storage Highlighting Shoreline Analysis chart (megalitres)
 
-![Shoreline animation](./assets/images/Atkinsons_Dam_Shoreline_Storage_single.gif)
+![Shoreline Animation](./assets/images/Atkinsons_Dam_Shoreline_Storage_single.gif)
 
 ![Atkinsons Dam - Storage History tied to Shoreline Analysis](./assets/images/Atkinsons_Dam_Storage_with_Shoreline_Dates.png)
 
