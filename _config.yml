@@ -29,3 +29,4 @@ collections:
   portfolio:
     output: true
     permalink: /portfolio/:path/
+    sort_by: 'weight'
