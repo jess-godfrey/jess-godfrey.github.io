@@ -17,9 +17,9 @@ The analysis uses **Landsat satellite imagery** as its primary data source. Wate
 
 The NDWI is calculated as:
 
-\[
+$$
 \text{NDWI} = \frac{\text{Green} - \text{NIR}}{\text{Green} + \text{NIR}}
-\]
+$$
 
 Resulting values range from **–1 to +1**, where:
 
@@ -48,9 +48,9 @@ To span the full period of interest, imagery from **two Landsat missions** was r
 - Animated shoreline change over time (GIF / MP4)
 - Historic Dam storage Highlighting Shoreline Analysis chart (megalitres)
 
-![Shoreline animation](./assets/images/portfolio/Shoreline_Analysis_Animation.gif)
+![Shoreline animation](./assets/images/portfolio/Atkinsons_Dam_Shoreline_Storage_single.gif)
 
-![Atkinsons Dam - Storage History tied to Shoreline Analysis] (./assets/images/portfolio/Atkinsons_Dam_Storage_with_Shoreline_Dates.png)
+![Atkinsons Dam - Storage History tied to Shoreline Analysis](./assets/images/portfolio/Atkinsons_Dam_Storage_with_Shoreline_Dates.png)
 
 ---
 
