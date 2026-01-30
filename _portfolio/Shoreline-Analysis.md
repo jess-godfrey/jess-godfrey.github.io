@@ -119,6 +119,14 @@ Band detection and validation are based on the **USGS Earth Explorer Landsat nam
 
 ---
 
+## Notebook
+
+<iframe src="/assets/notebooks/Shoreline_Analysis.html" 
+        width="100%" height="600px" style="border:1px solid #ccc;">
+</iframe>
+
+---
+
 ## Visualisation
 
 - Animated shoreline change over time (GIF / MP4)
