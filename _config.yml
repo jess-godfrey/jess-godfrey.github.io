@@ -19,6 +19,9 @@ defaults:
     values:
       layout: single
 
+# Enable MathJax for LaTeX equations
+mathjax: true
+
 # PrismJS theme for syntax highlighting
 prism_theme: 'prism-okaidia'
 
