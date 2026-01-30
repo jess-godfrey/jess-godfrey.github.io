@@ -7,6 +7,7 @@ permalink: /portfolio/labelling-typography/
 header:
   teaser: /assets/images/portfolio/Labelling_Project_Thumb_16_9_ratio.png
 classes: wide-project
+weight: 30
 ---
 
 
