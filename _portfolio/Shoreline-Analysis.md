@@ -48,9 +48,9 @@ To span the full period of interest, imagery from **two Landsat missions** was r
 - Animated shoreline change over time (GIF / MP4)
 - Historic Dam storage Highlighting Shoreline Analysis chart (megalitres)
 
-![Shoreline animation](./assets/images/portfolio/Atkinsons_Dam_Shoreline_Storage_single.gif)
+![Shoreline animation](./assets/images/Atkinsons_Dam_Shoreline_Storage_single.gif)
 
-![Atkinsons Dam - Storage History tied to Shoreline Analysis](./assets/images/portfolio/Atkinsons_Dam_Storage_with_Shoreline_Dates.png)
+![Atkinsons Dam - Storage History tied to Shoreline Analysis](./assets/images/Atkinsons_Dam_Storage_with_Shoreline_Dates.png)
 
 ---
 
