@@ -64,7 +64,7 @@ To span the full period of interest, imagery from two Landsat missions was requi
 
 2. Automatically detect required spectral bands using **USGS filename patterns**
 
-3. Create an **Area of Interest (AOI)** polygon and clip imagery to extent
+3. Use an **Area of Interest (AOI) polygon** and clip imagery to extent.  I previously created mine to just cover the Dam.
 
 4. Generate **NDWI rasters** for each year using:  
    \[
