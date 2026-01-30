@@ -7,6 +7,7 @@ permalink: /portfolio/tanaka-contours/
 header:
   teaser: /assets/images/portfolio/Tanaka_Contours_Thumb_16_9_ratio.png
 classes: wide-project
+weight: 10
 ---
 
 
