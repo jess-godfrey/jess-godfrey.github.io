@@ -130,7 +130,7 @@ Outputs
 
 ## Notebook
 
-<iframe src="/assets/notebook/Shoreline_Analysis.html" 
+<iframe src="/assets/notebooks/Shoreline_Analysis.html" 
         width="100%" height="600px" style="border:1px solid #ccc;">
 </iframe>
 
