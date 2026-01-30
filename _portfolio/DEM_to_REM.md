@@ -7,6 +7,7 @@ permalink: /portfolio/DEM_to_REM/
 header:
   teaser: /assets/images/portfolio/DEM_to_REM_Thumb_16_9_ratio.png
 classes: wide-project
+weight: 20
 ---
 
 ## Overview
