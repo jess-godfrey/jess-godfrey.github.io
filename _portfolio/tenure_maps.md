@@ -7,6 +7,7 @@ permalink: /portfolio/tenure-maps/
 header:
   teaser: /assets/images/portfolio/Tenure_Maps_Thumb_16_9_ratio.png
 classes: wide-project
+weight: 50
 ---
 
 ## Overview
