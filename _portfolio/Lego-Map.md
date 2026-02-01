@@ -1,5 +1,5 @@
 ---
-title: "Lego Map"
+title: "Lego-Style Map"
 excerpt: "A LEGO-style elevation map that reinterprets real-world terrain through creative cartographic design."
 collection: portfolio
 layout: single
