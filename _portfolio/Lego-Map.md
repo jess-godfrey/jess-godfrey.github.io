@@ -62,11 +62,11 @@ To test the idea, I created a LEGO-style elevation model of Mount Warning (Wollu
 
 10. Enhance the tessellation squares by:
 
-- Adding a secondary fill layer
+  - Adding a secondary fill layer
 
-- Applying offset and move effects
+  - Applying offset and move effects
 
-- Using semi-transparent black shading to create a “stacked brick” illusion
+  - Using semi-transparent black shading to create a “stacked brick” illusion
 
 11. Style the point features using matching graduated colour classes
 
