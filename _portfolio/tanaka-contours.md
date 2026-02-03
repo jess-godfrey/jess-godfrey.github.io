@@ -35,7 +35,7 @@ In this project, I apply Tanaka-style illuminated contours to a subsurface seism
 
 **Data**
 - Subsurface seismic horizon (B85), Bowen Basin, Queensland  
-- Interpreted Triassic surface represented as a raster
+- Interpreted Triassic surface represented as a raster.
 
 **Workflow**
 1. Generate contour lines from the raster surface
@@ -45,14 +45,14 @@ In this project, I apply Tanaka-style illuminated contours to a subsurface seism
    - Line width modifier
    - Colour modifier
 4. Apply Tanaka-style illumination with lighting from the south-east
-5. Refine symbology and layout within ArcGIS Pro
+5. Refine symbology and layout within ArcGIS Pro.
 
 
 ---
 
 ## Technical Notes
 
-Contour segments were attributed using Python within ArcGIS Pro (arcpy and math libraries).  Lighting effects were derived from segment azimuth, with values stored as 32-bit float fields to control both line width and tonal variation. Separating contour generation, attribution, and cartographic styling allowed for experimentation while preserving a reproducible analytical workflow.
+Contour segments were attributed using Python within ArcGIS Pro (arcpy and math libraries).  Lighting effects were derived from segment azimuth, with values stored as 32-bit float fields to control both line width and tonal variation. Separating contour generation, attribution and cartographic styling allowed for experimentation while preserving a reproducible analytical workflow.
 
 ---
 
