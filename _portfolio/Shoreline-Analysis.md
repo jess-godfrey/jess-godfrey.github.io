@@ -13,9 +13,9 @@ weight: 40
 
 ## Overview
 
-This project examines shoreline change over time at Atkinson Dam, Queensland, Australia, and compares those spatial changes with historic dam storage levels. The entire workflow — from raw satellite imagery through to final visualisation — was developed 100% in Python.
+This project examines shoreline change over time at Atkinson Dam, Queensland, Australia, and compares those spatial changes with historic dam storage levels. The entire workflow — from raw satellite imagery through to final visualisation — was developed in Python.
 
-The analysis uses Landsat satellite imagery as its primary data source. Water bodies have a distinctive spectral signature: they reflect strongly in the green band and very weakly in the near-infrared (NIR) band. This contrast can be exploited using the Normalised Difference Water Index (NDWI) to objectively identify water pixels.
+The analysis uses Landsat satellite imagery as its primary data source. Water bodies have a distinctive spectral signature: they reflect strongly in the green band and very weakly in the near-infrared (NIR) band. This contrast can be exploited using the normalised difference water index (NDWI) to objectively identify water pixels.
 
 The NDWI is calculated as:
 
@@ -28,7 +28,7 @@ Resulting values range from **–1 to +1**, where:
 - **Positive values** represent water  
 - **Negative values** represent non-water surfaces  
 
-Because NDWI is based on a logical spectral relationship rather than visual interpretation, it provides a consistent, reproducible, and objective method for mapping water bodies. This makes it particularly useful for shoreline change detection, flood and drought analysis, riverbank erosion studies, and long-term environmental monitoring.
+Because NDWI is based on a logical spectral relationship rather than visual interpretation, it provides a consistent, reproducible and objective method for mapping water bodies. This makes it particularly useful for shoreline change detection, flood and drought analysis, riverbank erosion studies and long-term environmental monitoring.
 
 To span the full period of interest, imagery from two Landsat missions was required: **Landsat 5** and **Landsat 8**. These satellites differ in both radiometric resolution (8-bit vs 16-bit imagery) and band designations, requiring careful handling to ensure consistency through time.
 
@@ -61,46 +61,46 @@ To span the full period of interest, imagery from two Landsat missions was requi
    *(Latitude –27.427261, Longitude 152.447959)*  
    - Years selected: **2006, 2008, 2015, 2017, 2022**  
    - Cloud cover filtered to **< 20%**
-   - Full multi-band datasets downloaded for each scene
+   - Full multi-band datasets downloaded for each scene.
 
-2. Automatically detect required spectral bands using **USGS filename patterns**
+2. Automatically detect required spectral bands using **USGS filename patterns**.
 
-3. Use an **Area of Interest (AOI) polygon** and clip imagery to extent.  I previously created mine to just cover the Dam.
+3. Use an **Area of Interest (AOI) polygon** and clip imagery to extent.  I previously created mine to just cover the dam.
 
 4. Generate **NDWI rasters** for each year using: 
 $$
-\text{NDWI} = \frac{\text{Green} - \text{NIR}}{\text{Green} + \text{NIR}}
+\text{NDWI} = \frac{\text{Green} - \text{NIR}}{\text{Green} + \text{NIR}}.
 $$
 
 5. Apply a **conditional (Con) operation** to extract water pixels  
    - NDWI ≥ 0 classified as water  
    - Water pixels assigned a value of 1  
-   - Non-water pixels set to NoData
+   - Non-water pixels set to NoData.
 
-6. Convert water rasters to polygons to extract **lake shorelines**
+6. Convert water rasters to polygons to extract **lake shorelines**.
 
-7. Generate water masks and calculate **dam surface area**
+7. Generate water masks and calculate **dam surface area**.
 
-8. Timestamp shoreline geometries for temporal comparison
+8. Timestamp shoreline geometries for temporal comparison.
 
-9. Load **historical dam storage observations** from CSV
+9. Load **historical dam storage observations** from CSV.
 
 10. Create:
     - Animated shoreline change visualisations (GIF & MP4)
-    - Storage charts with shoreline observation dates overlaid
+    - Storage charts with shoreline observation dates overlaid.
 
 ---
 
 ## Technical Appendix
 
-The Python code was developed to be **reproducible, reusable, and adaptable** to other reservoirs or study areas with minimal modification.
+The Python code was developed to be **reproducible, reusable and adaptable** to other reservoirs or study areas with minimal modification.
 
 Key features include:
 
 - Automatic detection of correct spectral bands across Landsat missions
 - Built-in **QA/QC checks**
 - Consistent handling of mixed 8-bit and 16-bit imagery
-- Fully scripted workflow from raw imagery to final outputs
+- Fully scripted workflow from raw imagery to final outputs.
 
 Band detection and validation are based on the **USGS Earth Explorer Landsat naming convention**, incorporating:
 
@@ -110,7 +110,7 @@ Band detection and validation are based on the **USGS Earth Explorer Landsat nam
 - Acquisition date
 - Processing date
 - Collection and Tier
-- Band identifiers (B1–B11)
+- Band identifiers (B1–B11).
 
 Outputs
 
@@ -119,7 +119,7 @@ Outputs
 - Water Mask
 - Shoreline polygons
 - Animation
-- Chart
+- Chart.
 
 ---
 
@@ -140,7 +140,7 @@ Outputs
 ## Visualisation
 
 - Animated shoreline change over time (GIF / MP4)
-- Historic Dam storage Highlighting Shoreline Analysis chart (megalitres)
+- Historic Dam storage Highlighting Shoreline Analysis chart (megalitres).
 
 ![Shoreline Animation](/assets/images/Atkinsons_Dam_Shoreline_Storage_single.gif)
 ![Atkinsons Dam - Storage History tied to Shoreline Analysis](/assets/images/Atkinsons_Dam_Storage_with_Shoreline_Dates.png)
