@@ -1,5 +1,5 @@
 ---
-title: "Lego-Style Map"
+title: "LEGO-Style Map"
 excerpt: "A LEGO-style elevation map that reinterprets real-world terrain through creative cartographic design."
 collection: portfolio
 layout: single
@@ -38,27 +38,27 @@ To test the idea, I created a LEGO-style elevation model of Mount Warning (Wollu
 
 **Workflow**
 
-1. Define the Area of Interest (AOI) — Mount Warning, NSW
+1. Define the area of interest (AOI) — Mount Warning, NSW.
 
 2. Export the DEM for the AOI
-*(Export Raster → 32-bit float → Clip to current display extent)*
+   *(export raster → 32-bit float → clip to current display extent)*.
 
-3. Convert the DEM to an integer raster
+3. Convert the DEM to an integer raster.
 
 4. Generate a square tessellation
-*(Cell size adjusted to suit the scale of the landscape)*
+   *(cell size adjusted to suit the scale of the landscape)*.
 
 5. Convert tessellation polygons to points
-*(Feature to Point — “Inside” unchecked)*
+*(Feature to Point — 'Inside' unchecked)*.
 
-6. Extract elevation values to points using the integer DEM
+6. Extract elevation values to points using the integer DEM.
 
 7. Perform a spatial join between tessellation squares and elevation points
-*(Assigning representative elevation values to each square)*
+   *(assigning representative elevation values to each square)*.
 
-8. Apply graduated colour symbology based on elevation values
+8. Apply graduated colour symbology based on elevation values.
 
-9. Adjust the number of classes to balance visual clarity and terrain variation
+9. Adjust the number of classes to balance visual clarity and terrain variation.
 
 10. Enhance the tessellation squares by:
 
@@ -66,13 +66,13 @@ To test the idea, I created a LEGO-style elevation model of Mount Warning (Wollu
 
   - Applying offset and move effects
 
-  - Using semi-transparent black shading to create a “stacked brick” illusion
+  - Using semi-transparent black shading to create a 'stacked brick' illusion.
 
-11. Style the point features using matching graduated colour classes
+11. Style the point features using matching graduated colour classes.
 
-12. Add subtle offsets and outlines to point symbols to reinforce depth
+12. Add subtle offsets and outlines to point symbols to reinforce depth.
 
-13. Refine symbology across all classes until the LEGO effect emerges
+13. Refine symbology across all classes until the LEGO effect emerges.
 
 The result is a stylised elevation model that reads immediately as terrain, while clearly referencing the visual language of LEGO bricks.
 
