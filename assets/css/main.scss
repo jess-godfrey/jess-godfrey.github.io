@@ -96,12 +96,42 @@ body {
    Portfolio grid layout fix
    ============================ */
 
+/* ============================
+   Portfolio grid layout fix
+   ============================ */
+
 @media (min-width: 64em) {
 
+  /* Use CSS Grid instead of flex to fix row misalignment */
   .entries-grid {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+    align-items: stretch;
+  }
+
+  /* Make grid items stretch fully */
+  .grid__item {
+    display: flex;
+  }
+
+  /* Force equal-height portfolio cards */
+  .archive__item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  /* Normalise teaser image heights */
+  .archive__item-teaser img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+  }
+
+  /* Keep excerpts from breaking vertical rhythm */
+  .archive__item-excerpt {
+    flex-grow: 1;
   }
 
 }
