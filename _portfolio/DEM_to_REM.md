@@ -1,6 +1,6 @@
 ---
 title: "DEM to REM"
-excerpt: "Transforming a Digital Elevation Model (DEM) of the Snake River, Wyoming, into a Relative Elevation Model (REM) to highlight subtle fluvial features."
+excerpt: "Transforming a digital elevation model (DEM) of the Snake River, Wyoming, into a relative elevation model (REM) to highlight subtle fluvial features."
 collection: portfolio
 layout: single
 permalink: /portfolio/DEM_to_REM/
