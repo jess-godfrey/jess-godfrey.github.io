@@ -93,20 +93,19 @@ body {
 }
 
 /* ============================
-   Portfolio grid layout fix
+   Portfolio grid – alignment + sharp thumbnails
    ============================ */
 
 @media (min-width: 64em) {
 
-  /* Restore default grid behavior */
-  .entries-grid {
-    display: block;
+  .archive__item-teaser {
+    overflow: hidden;
   }
 
-  /* Ensure consistent teaser image height */
   .archive__item-teaser img {
     width: 100%;
-    height: 180px;      /* tune if needed: 160–200px */
+    height: auto;          /* preserve image resolution */
+    aspect-ratio: 16 / 9;  /* consistent grid rows */
     object-fit: cover;
   }
 
