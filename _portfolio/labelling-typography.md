@@ -13,13 +13,13 @@ weight: 30
 
 ## Overview
 
-Maps are more than collections of lines, symbols, and geometry — they are stories that need a narrator. That role is fulfilled by labels. Present on almost every map, labelling is one of the most fundamental yet subtly complex aspects of cartographic design.
+Maps are more than collections of lines, symbols and geometry — they are stories that need a narrator. That role is fulfilled by labels. Present on almost every map, labelling is one of the most fundamental yet subtly complex aspects of cartographic design.
 
-Unlike rivers, roads, or terrain, text does not exist in the physical landscape. If you were standing in the middle of a forest, you wouldn’t see its name hovering between the trees. And yet, without labels, most maps would be abstract and ambiguous. Typography bridges the gap between what we see and what we understand, assigning identity and meaning where geometry alone falls short.
+Unlike rivers, roads or terrain, text does not exist in the physical landscape. If you were standing in the middle of a forest, you wouldn’t see its name hovering between the trees. And yet, without labels, most maps would be abstract and ambiguous. Typography bridges the gap between what we see and what we understand, assigning identity and meaning where geometry alone falls short.
 
-When labels are placed with intention, they guide the reader’s eye effortlessly across the map. They help anchor features in space, clarify relationships, and establish a clear visual hierarchy. Beyond simple identification, typography sets the emotional tone of a map — calm or busy, formal or expressive — acting as the final layer that brings balance and cohesion to the composition.
+When labels are placed with intention, they guide the reader’s eye effortlessly across the map. They help anchor features in space, clarify relationships and establish a clear visual hierarchy. Beyond simple identification, typography sets the emotional tone of a map — calm or busy, formal or expressive — acting as the final layer that brings balance and cohesion to the composition.
 
-This project explores labelling as both a technical discipline and a design craft, focusing on clarity, restraint, and readability at multiple scales.
+This project explores labelling as both a technical discipline and a design craft, focusing on clarity, restraint and readability at multiple scales.
 
 
 ---
@@ -45,15 +45,15 @@ This project explores labelling as both a technical discipline and a design craf
 
 Effective labelling relies on consistency and restraint. To maintain clarity and visual harmony:
 
-- Limit the number of fonts used — more than two typefaces is generally excessive,
+- Limit the number of fonts used — more than two typefaces is generally excessive.
 
 - Differentiate feature types using:
 
-  - Font size,
+  - Font size
 
-  - Weight (regular vs bold),
+  - Weight (regular vs bold)
 
-  - Style (italics where appropriate),
+  - Style (italics where appropriate)
 
   - Subtle colour variation.
 
