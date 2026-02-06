@@ -20,11 +20,11 @@ The result is imagery that feels less photographic and more illustrative, while 
 
 ## Visualisation
 
-![Grand Canyon](/assets/images/The_Grand_Canyon_Smaller_v1.png)
+![Grand Canyon](/assets/images/The_Grand_Canyon_smaller_v1.png)
 
 *Postcard style visualisation of The Grand Canyon showcasing the painterly visual style*
 
-![Blue Mountains National Park](/assets/images/Blue_Mountains_National_Park_Smaller_v1.png)
+![Blue Mountains National Park](/assets/images/Blue_Mountains_National_Park_smaller_v1.png)
 
 *Postcard style visualisation of The Blue Mountains National Park showcasing the painterly visual style*
 
