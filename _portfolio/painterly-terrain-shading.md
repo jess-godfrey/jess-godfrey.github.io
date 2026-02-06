@@ -22,11 +22,11 @@ The result is imagery that feels less photographic and more illustrative, while 
 
 ![Grand Canyon](/assets/images/The_Grand_Canyon_smaller_v1.png)
 
-*Postcard style visualisation of The Grand Canyon showcasing the painterly visual style*
+*Postcard style visualisation of The Grand Canyon showcasing the painterly style*
 
 ![Blue Mountains National Park](/assets/images/Blue_Mountains_National_Park_smaller_v1.png)
 
-*Postcard style visualisation of The Blue Mountains National Park showcasing the painterly visual style*
+*Postcard style visualisation of The Blue Mountains National Park showcasing the painterly style*
 
 ---
 
